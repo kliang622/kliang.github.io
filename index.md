@@ -3,9 +3,15 @@
 	<head>
 	</head>
 	<body>
+		<div class="custom-padding">
 		<nav>
-		<ul>
-			<li><a href="#"><img src="images/list-item-1.gif" alt="list item 1" /></a></li>
-      			<li><a href="#"><img src="images/list-item-2.gif" alt="list item 2" /></a></li>
-      			<li><a href="#"><img src="images/list-item-3.gif" alt="list item 3" /></a></li>
-      			<li><a href="#"><img src="images/list-item-4.gif" alt="list item 4" /></a></li>
+			<ul class="menu-area">
+				<li><a href="#"> About Me </a></li>
+				<li><a href="#"> Profile </a></li>
+				<li><a href="#"> Projects </a></li>
+			</ul>
+			</nav>
+		</div>
+	</body>
+</html>
+			
