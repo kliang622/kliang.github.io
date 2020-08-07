@@ -10,6 +10,7 @@ header{
 	width: 100%;
 	height: 100px;
 }
+/* nav bar*/
 
 header nav ul{
 	height: 50px;
@@ -35,4 +36,14 @@ header nav ul li a{
 header nav ul li a:hover{
 	background-color: #DABA73;
 	color: #7A673D;
+}
+/*index*/
+.index-banner 
+{
+	width:100%;
+	height: 100vh;
+}
+.img-eye
+{
+	width: 300px;
 }
