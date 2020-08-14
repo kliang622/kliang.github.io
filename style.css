@@ -68,6 +68,7 @@ footer
 	padding:40px 40px;
 	margin-top: 20px;
 	background-color:#DABA73;
+	overflow:hidden;
 }
 footer ul
 {
