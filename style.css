@@ -40,10 +40,11 @@ header nav ul li a:hover{
 }
 /*desktop version*/
 @media only screen and (min-width:1000px){
-	header
+	/*header
 	{
 		line-height:50px;
 	}
+	*/
 }
 /*index*/
 .index-banner 
@@ -116,4 +117,3 @@ footer ul li a
 	margin-bottom: 10px;
 
 }
-
