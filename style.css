@@ -54,7 +54,7 @@ img
 {
 	width: 300px;
 	border-radius: 50%;
-	/*text-align: center;*/
+	text-align: center;
 	margin: 1px auto;
 	display: block;
 }
