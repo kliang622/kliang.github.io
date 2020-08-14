@@ -37,6 +37,10 @@ header nav ul li a:hover{
 	background-color: #DABA73;
 	color: #7A673D;
 }
+/*desktop version*/
+@media only screen and (min-width:1000px){
+
+}
 /*index*/
 .index-banner 
 {
