@@ -30,7 +30,8 @@ header nav ul li a{
 	color: white; 
 	font-size: 25px;
 	font-family: Optima;
-	line-height: 90px;
+	line-height: 50px;
+	margin:25px 0;
 	
 }
 header nav ul li a:hover{
