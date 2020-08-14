@@ -60,3 +60,11 @@ img
 	margin-right: auto;
 	display: block;
 }
+
+/*footer*/
+footer
+{
+	width: calc(100%-80px);
+	padding:40px 40px;
+	background-color:#DABA73;
+}
