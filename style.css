@@ -66,5 +66,17 @@ footer
 {
 	width: calc(100%-80px);
 	padding:40px 40px;
+	margin-top: 20px;
 	background-color:#DABA73;
+}
+footer ul li
+{
+	display: block;
+	list-style-type: none; 
+}
+footer ul li a
+{
+	color: white; 
+	font-size: 14px;
+	font-family: Optima;
 }
