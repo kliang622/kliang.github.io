@@ -69,6 +69,12 @@ footer
 	margin-top: 20px;
 	background-color:#DABA73;
 }
+footer ul
+{
+	width: fit-content;
+	float:left;
+	padding-left: 20px;
+}
 footer ul li
 {
 	display: block;
