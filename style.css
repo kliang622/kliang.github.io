@@ -14,7 +14,7 @@ header{
 
 header nav ul{
 	height: 50px;
-	width: fit-content;
+	width: 100px;
 	margin: 0 auto;
 }
 header nav ul li{
@@ -30,7 +30,7 @@ header nav ul li a{
 	color: white; 
 	font-size: 25px;
 	font-family: Optima;
-	line-height: 50px;
+	line-height: 90px;
 	
 }
 header nav ul li a:hover{
@@ -39,7 +39,10 @@ header nav ul li a:hover{
 }
 /*desktop version*/
 @media only screen and (min-width:1000px){
-
+	header
+	{
+		line-height:50px;
+	}
 }
 /*index*/
 .index-banner 
