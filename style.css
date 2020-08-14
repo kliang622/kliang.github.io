@@ -15,7 +15,7 @@ header{
 header nav ul{
 	height: 50px;
 	width: 100px;
-	margin: 0 auto;
+	margin:25px 0;
 }
 header nav ul li{
 	display: inline-block;
@@ -31,7 +31,7 @@ header nav ul li a{
 	font-size: 25px;
 	font-family: Optima;
 	line-height: 50px;
-	margin:25px 0;
+	
 	
 }
 header nav ul li a:hover{
