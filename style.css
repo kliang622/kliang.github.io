@@ -94,3 +94,17 @@ footer ul li a
 {
 	display: none;
 }
+
+.footer-media 
+{
+	width:60px;
+	float:right;
+
+}
+.footer-media img
+{
+	width:100%;
+	margin-bottom: 10px;
+
+}
+
