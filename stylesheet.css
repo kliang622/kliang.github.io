@@ -1,6 +1,7 @@
 body 
 {
-	margin: 0px; 
+	margin: 0px;
+	height: 100vh; 
 	padding:0 px;
 	display: flex;
 	align-items: center;
@@ -20,10 +21,24 @@ body
 {
 	white-space: nowrap;
 	overflow: hidden;
-	animation: typing 3s steps(12, end) forwards;
+	animation: typing 4s steps(12, end) forwards, blink 1s infinite;
 }
-@keyframes typing 
+@keyframes typing
 {
-	0% {width: 0%}
+	from {width: 0%}
 	100% {width: 100%}
+}
+@keyframes blink
+{
+	0%
+	{
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100%
+	{
+		opacity: 1;
+	}
 }
