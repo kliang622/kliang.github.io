@@ -1,12 +1,14 @@
 body 
 {
-	margin: 0px;
-	height: 100vh; 
-	padding:0 px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
 	background: #ddd;
+	padding: 0px;
+}
+header 
+{
+	background-color: #aaa;
+	padding: 0px;
+
 }
 
 .text-animation
@@ -23,6 +25,7 @@ body
 	overflow: hidden;
 	animation: typing 4s steps(12, end) forwards, blink 1s infinite;
 }
+/*styling text animation typing speeds + looks */
 @keyframes typing
 {
 	from {width: 0%}
@@ -35,10 +38,54 @@ body
 		opacity: 0;
 	}
 	50% {
-		opacity: 0.5;
+		opacity: 0
 	}
 	100%
 	{
 		opacity: 1;
 	}
+}
+
+/*.navbar 
+{
+	overflow: hidden;
+	background-color: #eee;
+	margin: 0 auto;
+}
+
+.navbar a
+{
+	float: center;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	padding: 14px 20px;
+	list-style-type: none;
+}
+.navbar a:hover
+{
+	background-color: #aaa;
+	color: green;
+}
+*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
