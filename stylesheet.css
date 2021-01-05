@@ -72,17 +72,21 @@ header
 .navbar {
   overflow: hidden;
   background-color: #333;
+
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
-  display: block;
+  float: none;
+  display: flex;
   color: white;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+   /*width: 10vw; */
+
 }
+
 
 /* Change color on hover */
 .navbar a:hover {
